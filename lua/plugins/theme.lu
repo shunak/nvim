@@ -1,0 +1,12 @@
+return {
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      transparent = true, -- ここで透過を有効化
+      styles = {
+        sidebars = "transparent", -- サイドバー（Neo-tree等）も透過
+        floats = "transparent",   -- 浮動ウィンドウも透過
+      },
+    },
+  },
+}
